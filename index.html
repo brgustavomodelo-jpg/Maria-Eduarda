@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Clínica Dra. Maria Eduarda Veiga Moura | Cirurgiã-Dentista em Curitiba – Sítio Cercado</title>
+  <meta name="description" content="Clínica odontológica da Dra. Maria Eduarda Veiga Moura (CRO/PR 36448), no Sítio Cercado, em Curitiba. Atendimento acolhedor, ambiente tranquilo e agendamento pelo WhatsApp.">
+  <meta name="theme-color" content="#f7f2eb">
+  <meta name="author" content="Clínica Dra. Maria Eduarda Veiga Moura">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Clínica Dra. Maria Eduarda Veiga Moura">
+  <meta property="og:title" content="Clínica Dra. Maria Eduarda Veiga Moura | Curitiba – Sítio Cercado">
+  <meta property="og:description" content="Seu sorriso merece cuidado e atenção. Conheça a clínica e agende pelo WhatsApp.">
+  <!-- TROCAR pela URL absoluta depois de publicar o site: -->
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon-48.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Decide, antes da primeira pintura, se a abertura animada roda (1x por sessão, nunca com reduced-motion) -->
+  <script>
+    (function () {
+      var h = document.documentElement, seen = false;
+      h.classList.add('js');
+      try { seen = sessionStorage.getItem('intro-seen') === '1'; } catch (e) {}
+      var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!seen && !reduce) h.classList.add('intro-on');
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap">
+  <link rel="preload" as="image" href="assets/img/dra-maria-eduarda.webp" type="image/webp" imagesrcset="assets/img/dra-maria-eduarda-sm.webp 640w, assets/img/dra-maria-eduarda.webp 1000w" imagesizes="(min-width: 960px) 520px, 90vw">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Clínica Dra. Maria Eduarda Veiga Moura",
+    "description": "Clínica odontológica no Sítio Cercado, em Curitiba, da cirurgiã-dentista Dra. Maria Eduarda Veiga Moura (CRO/PR 36448).",
+    "telephone": "+55 41 8816-6713",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Irmã Maria Francisca Paolino, 221",
+      "addressLocality": "Curitiba",
+      "addressRegion": "PR",
+      "postalCode": "81910-250",
+      "addressCountry": "BR"
+    },
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=R.+Irm%C3%A3+Maria+Francisca+Paolino%2C+221%2C+S%C3%ADtio+Cercado%2C+Curitiba%2C+PR",
+    "sameAs": ["https://www.instagram.com/dra.madumoura/"]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- SVG sprites -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.8l2.78 5.9 6.42.8-4.72 4.45 1.2 6.4L12 17.2l-5.68 3.15 1.2-6.4L2.8 9.5l6.42-.8z"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 32 32"><path d="M16 3.2A12.7 12.7 0 0 0 5 22.3L3.2 28.8l6.7-1.7A12.7 12.7 0 1 0 16 3.2zm0 2.3a10.4 10.4 0 1 1-5.3 19.4l-.4-.2-3.9 1 1-3.8-.3-.4A10.4 10.4 0 0 1 16 5.5zm-4.1 5.3c-.3 0-.8.1-1.2.6-.4.5-1.5 1.5-1.5 3.6s1.6 4.2 1.8 4.5c.2.3 3 4.7 7.4 6.4 3.6 1.4 4.4 1.1 5.2 1 .8-.1 2.5-1 2.8-2 .4-1 .4-1.8.2-2-.1-.2-.4-.3-.9-.5l-2.9-1.4c-.4-.1-.7-.2-1 .2-.3.5-1.1 1.4-1.3 1.7-.2.3-.5.3-.9.1-.5-.2-1.9-.7-3.6-2.2-1.3-1.2-2.2-2.6-2.5-3.1-.2-.4 0-.7.2-.9l.7-.8c.2-.3.3-.5.4-.8.1-.3.1-.6 0-.8l-1.3-3.1c-.3-.8-.7-.8-1-.8z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12zm0-9a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.500 18.400 12 21c-2.500-2.600-3.800-5.600-3.800-9S9.500 5.600 12 3z"/></g></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M13.500 21v-7.500h2.500l.4-3h-2.900V8.600c0-.9.300-1.400 1.500-1.400h1.500V4.500c-.3 0-1.200-.1-2.200-.1-2.200 0-3.700 1.300-3.700 3.800v2.300H8.100v3h2.500V21z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3.500" y="3.500" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.200" cy="6.800" r=".6" fill="currentColor"/></g></symbol>
+  </svg>
+
+  <!-- ABERTURA ANIMADA -->
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro__inner">
+      <span class="intro__rule"></span>
+      <img class="intro__mark" src="assets/img/monograma-m.png" alt="" width="72" height="72">
+      <p class="intro__eyebrow"><span>Clínica</span></p>
+      <h2 class="intro__name">
+        <span class="ln"><span>Dra. Maria Eduarda</span></span>
+        <span class="ln"><span>Veiga Moura</span></span>
+      </h2>
+      <p class="intro__tag">Cuidar do seu sorriso é cuidar de você.</p>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header" id="header">
+    <div class="wrap header__bar">
+      <a class="brand" href="#inicio" aria-label="Clínica Dra. Maria Eduarda Veiga Moura – início">
+        <img src="assets/img/monograma-m.png" alt="" width="44" height="44" class="brand__mark">
+        <span class="brand__txt"><b>Dra. Maria Eduarda</b><small>Clínica odontológica</small></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#clinica">A Clínica</a></li>
+          <li><a href="#profissional">A Profissional</a></li>
+          <li><a href="#estrutura">Estrutura</a></li>
+          <li><a href="#atendimento">Atendimento</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+        <a class="btn btn--dark nav__cta" href="https://wa.me/554188166713?text=Ol%C3%A1!%20Conheci%20a%20Cl%C3%ADnica%20Dra.%20Maria%20Eduarda%20Veiga%20Moura%20pelo%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20agendamento." target="_blank" rel="noopener">Agendar consulta</a>
+      </nav>
+
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- 01 HERO -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow rv" style="--d:.05s">Curitiba · Sítio Cercado</p>
+          <h1 id="hero-title" class="hero__title">
+            <span class="w"><span style="--d:.1s">Seu</span></span>
+            <span class="w"><span style="--d:.18s">sorriso</span></span>
+            <span class="w"><span style="--d:.26s">merece</span></span>
+            <span class="w"><span style="--d:.34s"><em>cuidado</em></span></span>
+            <span class="w"><span style="--d:.42s">e</span></span>
+            <span class="w"><span style="--d:.5s">atenção.</span></span>
+          </h1>
+          <p class="hero__lead rv" style="--d:.65s">Um espaço pensado para oferecer acolhimento, confiança e cuidado odontológico em cada atendimento.</p>
+          <div class="hero__cta rv" style="--d:.8s">
+            <a class="btn btn--primary" href="https://www.instagram.com/dra.madumoura/" target="_blank" rel="noopener">
+              <svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg> Conheça meu Instagram
+            </a>
+            <a class="btn btn--ghost" href="https://www.facebook.com/eduarda.veigamoura?mibextid=LQQJ4d" target="_blank" rel="noopener">
+              <svg class="ico" aria-hidden="true"><use href="#i-fb"/></svg> Conheça meu Facebook
+            </a>
+          </div>
+          <div>
+          </div>
+        </div>
+
+        <figure class="hero__media rv-img" style="--d:.2s">
+          <div class="arch">
+            <img src="assets/img/dra-maria-eduarda.webp"
+                 srcset="assets/img/dra-maria-eduarda-sm.webp 640w, assets/img/dra-maria-eduarda.webp 1000w"
+                 sizes="(min-width: 960px) 520px, 90vw"
+                 width="1000" height="1250" fetchpriority="high"
+                 alt="Retrato da Dra. Maria Eduarda Veiga Moura, de cabelos loiros ondulados, diante de uma parede terracota">
+          </div>
+          <span class="hero__ring" aria-hidden="true"></span>
+        </figure>
+      </div>
+      <a class="scroll-cue" href="#clinica" aria-label="Rolar para a próxima seção"><span></span></a>
+    </section>
+
+    <!-- 02 SOBRE A CLÍNICA -->
+    <section class="section about" id="clinica" aria-labelledby="about-title">
+      <div class="wrap about__grid">
+        <div class="about__media">
+          <figure class="about__img about__img--a" data-reveal>
+            <img src="assets/img/ambiente-clinica.webp" loading="lazy" width="1000" height="1333"
+                 alt="Dra. Maria Eduarda sentada em uma poltrona clara, com prateleira ao fundo">
+          </figure>
+          <figure class="about__img about__img--b" data-reveal style="--d:.15s">
+            <img src="assets/img/escaneamento.webp" loading="lazy" width="720" height="1280"
+                 alt="Modelo digital de arcada dentária exibido em tela no consultório">
+          </figure>
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow" data-reveal>A Clínica</p>
+          <h2 id="about-title" class="h2" data-reveal style="--d:.08s">Um ambiente preparado para <em>cuidar de você.</em></h2>
+          <p class="lead" data-reveal style="--d:.16s">Cada detalhe do nosso espaço foi pensado para proporcionar uma experiência acolhedora e tranquila. Nosso compromisso é receber cada paciente com atenção, respeito e cuidado.</p>
+          <dl class="facts" data-reveal style="--d:.24s">
+            <div><dt>Avaliação no Google</dt><dd>5,0</dd></div>
+            <div><dt>Avaliações de pacientes</dt><dd>8</dd></div>
+            <div><dt>Bairro</dt><dd>Sítio Cercado</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 PROFISSIONAL -->
+    <section class="section pro" id="profissional" aria-labelledby="pro-title">
+      <div class="wrap pro__grid">
+        <figure class="pro__photo" data-reveal>
+          <div class="arch arch--gold">
+            <img src="assets/img/dra-retrato-escuro.webp" loading="lazy" width="860" height="860"
+                 alt="Retrato da Dra. Maria Eduarda Veiga Moura, de blazer preto, com a mão no queixo">
+          </div>
+        </figure>
+        <div class="pro__copy">
+          <p class="eyebrow eyebrow--light" data-reveal>A Profissional</p>
+          <h2 id="pro-title" class="h2 h2--light" data-reveal style="--d:.08s">Prazer, sou a <em>Dra. Maria Eduarda.</em></h2>
+          <p class="pro__quote" data-reveal style="--d:.14s">Conhecimento, cuidado e dedicação ao seu sorriso.</p>
+          <p class="lead lead--light" data-reveal style="--d:.2s">Sou cirurgiã-dentista, registrada no CRO/PR sob o número 36448, e pós-graduada em Harmonização Orofacial. Meu compromisso é oferecer um atendimento pautado em cuidado, atenção e acolhimento.</p>
+          <ul class="creds" data-reveal style="--d:.28s">
+            <li><span>Nome</span><b>Dra. Maria Eduarda Veiga Moura</b></li>
+            <li><span>Profissão</span><b>Cirurgiã-Dentista</b></li>
+            <li><span>Registro</span><b>CRO/PR 36448</b></li>
+            <li><span>Formação</span><b>Pós-graduada em Harmonização Orofacial</b></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 ESTRUTURA -->
+    <section class="section space" id="estrutura" aria-labelledby="space-title">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal>Nosso espaço</p>
+          <h2 id="space-title" class="h2" data-reveal style="--d:.08s">Ambientes pensados com <em>calma e cuidado.</em></h2>
+        </header>
+
+        <ul class="gallery" id="gallery">
+          <li class="g g1" data-reveal>
+            <button type="button" data-full="assets/img/consultorio.webp" data-cap="Consultório odontológico" aria-label="Ampliar foto: consultório odontológico">
+              <img src="assets/img/consultorio.webp" loading="lazy" width="1000" height="1196" alt="Consultório odontológico com cadeira, equipamentos e a Dra. Maria Eduarda de jaleco branco">
+              <span class="cap">Consultório</span>
+            </button>
+          </li>
+          <li class="g g2" data-reveal style="--d:.08s">
+            <button type="button" data-full="assets/img/equipamento-digital.webp" data-cap="Equipamento digital de escaneamento" aria-label="Ampliar foto: equipamento digital">
+              <img src="assets/img/equipamento-digital.webp" loading="lazy" width="720" height="1280" alt="Tela de equipamento digital de escaneamento odontológico" style="object-position:50% 55%">
+              <span class="cap">Equipamento digital</span>
+            </button>
+          </li>
+          <li class="g g3" data-reveal style="--d:.16s">
+            <button type="button" data-full="assets/img/ambiente-hero.webp" data-cap="Luz natural e tons neutros" aria-label="Ampliar foto: detalhe do espaço">
+              <img src="assets/img/ambiente-hero.webp" loading="lazy" width="1100" height="1209" alt="Ambiente claro com claraboleta, guarda-corpo branco e sofá bege" style="object-position:70% 70%">
+              <span class="cap">Detalhes</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <dialog class="lightbox" id="lightbox" aria-label="Galeria ampliada">
+        <button class="lb__close" type="button" aria-label="Fechar">&times;</button>
+        <button class="lb__nav lb__prev" type="button" aria-label="Foto anterior"><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <figure class="lb__fig"><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+        <button class="lb__nav lb__next" type="button" aria-label="Próxima foto"><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </dialog>
+    </section>
+
+    <!-- 05 ATENDIMENTO -->
+    <section class="section care" id="atendimento" aria-labelledby="care-title">
+      <div class="wrap care__grid">
+        <div class="care__copy">
+          <p class="eyebrow" data-reveal>Atendimento odontológico</p>
+          <h2 id="care-title" class="h2" data-reveal style="--d:.08s">Seu cuidado começa com <em>uma boa conversa.</em></h2>
+          <p class="lead" data-reveal style="--d:.16s">Entre em contato com nossa equipe para conhecer os atendimentos disponíveis e encontrar a melhor forma de cuidar do seu sorriso.</p>
+          <a class="btn btn--dark" data-reveal style="--d:.24s" href="https://wa.me/554188166713?text=Ol%C3%A1!%20Conheci%20a%20Cl%C3%ADnica%20Dra.%20Maria%20Eduarda%20Veiga%20Moura%20pelo%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20agendamento." target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Falar com a equipe
+          </a>
+        </div>
+        <ul class="areas">
+          <li data-reveal style="--d:.12s">
+            <span class="areas__n">01</span>
+            <h3>Odontologia</h3>
+            <p>Atendimento odontológico com atenção, respeito e acolhimento. Consulte a equipe sobre as opções disponíveis.</p>
+          </li>
+          <li data-reveal style="--d:.22s">
+            <span class="areas__n">02</span>
+            <h3>Harmonização Facial</h3>
+            <p>A Dra. Maria Eduarda é pós-graduada em Harmonização Orofacial. Converse com a equipe para saber mais.</p>
+          </li>
+        </ul>
+        <p class="care__note" data-reveal>Toda indicação de tratamento depende de avaliação individual com a profissional.</p>
+      </div>
+    </section>
+
+    <!-- 06 AVALIAÇÕES -->
+    <section class="section reviews" id="avaliacoes" aria-labelledby="rev-title">
+      <div class="wrap reviews__grid">
+        <div class="reviews__score">
+          <p class="eyebrow" data-reveal>Experiência dos pacientes</p>
+          <h2 id="rev-title" class="h2" data-reveal style="--d:.08s">Quem passou por aqui <em>recomenda.</em></h2>
+          <div class="score" data-reveal style="--d:.16s">
+            </div>
+          </div>
+        </div>
+
+        <ul class="cards">
+          <li class="card" data-reveal style="--d:.1s">
+            <span class="stars" role="img" aria-label="5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+            <blockquote>“Recomendo esta clínica, fui muito bem atendido.”</blockquote>
+            <p class="card__who">Paciente · Avaliação no Google</p>
+          </li>
+          <li class="card" data-reveal style="--d:.18s">
+            <span class="stars" role="img" aria-label="5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+            <blockquote>“Gostei muito, atendimento acolhedor.”</blockquote>
+            <p class="card__who">Paciente · Avaliação no Google</p>
+          </li>
+          <li class="card" data-reveal style="--d:.26s">
+            <span class="stars" role="img" aria-label="5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+            <blockquote>“Excelente atendimento e ótimos profissionais.”</blockquote>
+            <p class="card__who">Paciente · Avaliação no Google</p>
+          </li>
+          <li class="card" data-reveal style="--d:.34s">
+            <span class="stars" role="img" aria-label="5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+            <blockquote>“Ótimo ambiente, atendimento excepcional.”</blockquote>
+            <p class="card__who">Paciente · Avaliação no Google</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 07 LOCALIZAÇÃO -->
+    <section class="section location" id="localizacao" aria-labelledby="loc-title">
+      <div class="wrap location__grid">
+        <div class="location__copy">
+          <p class="eyebrow" data-reveal>Localização</p>
+          <h2 id="loc-title" class="h2" data-reveal style="--d:.08s">Estamos esperando <em>por você.</em></h2>
+          <address class="addr" data-reveal style="--d:.16s">
+            <p><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>
+              <span>R. Irmã Maria Francisca Paolino, 221<br>Sítio Cercado, Curitiba - PR<br>CEP 81910-250</span></p>
+            <p><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+              <a href="tel:+554188166713">(41) 8816-6713</a></p>
+          </address>
+          <a class="btn btn--dark" data-reveal style="--d:.24s" href="https://www.google.com/maps/dir/?api=1&destination=R.+Irm%C3%A3+Maria+Francisca+Paolino%2C+221%2C+S%C3%ADtio+Cercado%2C+Curitiba%2C+PR" target="_blank" rel="noopener">
+            Como chegar <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+        <div class="map" data-reveal style="--d:.12s">
+          <iframe title="Mapa com a localização da Clínica Dra. Maria Eduarda Veiga Moura" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=R.+Irm%C3%A3+Maria+Francisca+Paolino,+221,+S%C3%ADtio+Cercado,+Curitiba,+PR&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 AGENDAMENTO -->
+    <section class="cta" id="agendamento" aria-labelledby="cta-title">
+      <div class="wrap cta__inner">
+        <span class="cta__arch" aria-hidden="true"></span>
+        <p class="eyebrow eyebrow--light" data-reveal>Agendamento e contato</p>
+        <h2 id="cta-title" class="h2 h2--light" data-reveal style="--d:.08s">Vamos cuidar do <em>seu sorriso?</em></h2>
+        <p class="lead lead--light" data-reveal style="--d:.16s">Entre em contato com nossa equipe e consulte as opções de atendimento e agendamento.</p>
+        <div class="cta__btns" data-reveal style="--d:.24s">
+          <a class="btn btn--gold" href="https://wa.me/554188166713?text=Ol%C3%A1!%20Conheci%20a%20Cl%C3%ADnica%20Dra.%20Maria%20Eduarda%20Veiga%20Moura%20pelo%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20agendamento." target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Chamar no WhatsApp
+          </a>
+          <a class="btn btn--outline-light" href="tel:+554188166713"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> (41) 8816-6713</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 09 FOOTER -->
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div class="footer__brand">
+        <a class="brand brand--light" href="#inicio">
+          <img src="assets/img/monograma-m.png" alt="" width="44" height="44" class="brand__mark">
+          <span class="brand__txt"><b>Clínica Dra. Maria Eduarda Veiga Moura</b></span>
+        </a>
+        <p>Dra. Maria Eduarda Veiga Moura<br>Cirurgiã-Dentista · CRO/PR 36448</p>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <address>
+          R. Irmã Maria Francisca Paolino, 221<br>Sítio Cercado, Curitiba - PR · 81910-250<br>
+          Telefone: <a href="tel:+554188166713">(41) 8816-6713</a><br>
+          WhatsApp: <a href="https://wa.me/554188166713" target="_blank" rel="noopener">(41) 8816-6713</a><br>
+          Site: <a href="https://meudoutor.com" target="_blank" rel="noopener">meudoutor.com</a><br>
+          Instagram: <a href="https://www.instagram.com/dra.madumoura/" target="_blank" rel="noopener">@dra.madumoura</a>
+        </address>
+      </div>
+      <nav aria-label="Navegação do rodapé">
+        <h3>Navegue</h3>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#clinica">A Clínica</a></li>
+          <li><a href="#profissional">A Profissional</a></li>
+          <li><a href="#estrutura">Estrutura</a></li>
+          <li><a href="#atendimento">Atendimento</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="wrap footer__legal">
+      <p>© <span id="year">2026</span> Clínica Dra. Maria Eduarda Veiga Moura. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Flutuantes -->
+  <a class="fab fab--wa" href="https://wa.me/554188166713?text=Ol%C3%A1!%20Conheci%20a%20Cl%C3%ADnica%20Dra.%20Maria%20Eduarda%20Veiga%20Moura%20pelo%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20agendamento." target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">
+    <svg aria-hidden="true"><use href="#i-wa"/></svg>
+  </a>
+  <button class="fab fab--top" id="toTop" type="button" aria-label="Voltar ao topo"><svg aria-hidden="true"><use href="#i-up"/></svg></button>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
